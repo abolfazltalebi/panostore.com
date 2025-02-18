@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { quickLinks } from "../../constanst/FooterItem";
+import { Services } from "../../constanst/FooterItem";
 
 export default function FooterQuickLinks() {
   return (
     <div className="space-y-4">
-      <h2 className="font-medium capitalize text-lg">Quick links</h2>
+      <h2 className="font-medium capitalize text-lg">serviced</h2>
       <div className="flex flex-col gap-4">
-        {quickLinks.map((Qitem) => {
+        {Services.map((Qitem) => {
           return (
             <Link
               to={Qitem.src}

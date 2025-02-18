@@ -7,7 +7,7 @@ import FooterText from "./FooterText";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#fdf9ed] py-12">
+    <footer className="bg-[#F7F7F7] py-12">
       <div className="container grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 p-8 ">
         <FooterLogo />
         <FooterContact />
