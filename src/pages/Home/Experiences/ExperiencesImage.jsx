@@ -1,9 +1,9 @@
-import experienceimage from "@/assets/images/experiences.webp";
+import experienceimage from "https://ik.imagekit.io/s846cvb3k/experiences.webp?updatedAt=1740072379582";
 
 export default function ExperiencesImage() {
   return (
     <div>
-      <img loading="lazy"src={experienceimage} alt="" />
+      <img  src={experienceimage} alt="" />
     </div>
   );
 }
