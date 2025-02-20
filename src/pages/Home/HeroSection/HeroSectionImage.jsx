@@ -8,7 +8,7 @@ export default function HeroSectionImage() {
       animate={{ opacity: 1, translateX: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <img src={heroBackground} className="rounded-3xl" alt="" />
+      <img loading="lazy" src={heroBackground} className="rounded-3xl" alt="" />
     </motion.div>
   );
 }

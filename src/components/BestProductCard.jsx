@@ -1,6 +1,6 @@
-import { FaPlus  } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { FaPlus } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function BestProductCard({ image, name, price, rating }) {
   return (
@@ -9,7 +9,7 @@ export default function BestProductCard({ image, name, price, rating }) {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      <img src={image} alt={name} className="w-full object-cover" />
+      <img loading="lazy"src={image} alt={name} className="w-full object-cover" />
       <div className="space-y-4 p-4 bg-white rounded-b-2xl">
         <h3 className="sm:text-lg font-semibold">{name}</h3>
         <p className="text-yellow-500 flex items-center gap-1">

@@ -14,7 +14,7 @@ export default function TestimonialsCard({
         animate={{ opacity: 1,scale:1 }}
         transition={{ duration: 0.5 }}
       >
-        <img src={background} alt="" />
+        <img loading="lazy"src={background} alt="" />
       </motion.div>
       <motion.div
         className="absolute bottom-0 flex flex-col items-center gap-2 rounded-3xl bg-white m-3 h-[150px]"
