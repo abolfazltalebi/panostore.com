@@ -1,4 +1,4 @@
-import heroBackground from "https://ik.imagekit.io/s846cvb3k/background.webp?updatedAt=1740072371877";
+import heroBackground from "@/assets/images/background.webp";
 import { motion } from "framer-motion";
 
 export default function HeroSectionImage() {
@@ -8,7 +8,7 @@ export default function HeroSectionImage() {
       animate={{ opacity: 1, translateX: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <img   src={heroBackground} className="rounded-3xl" alt="" />
+      <img src={heroBackground} className="rounded-3xl" alt="" />
     </motion.div>
   );
 }
