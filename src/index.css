@@ -64,6 +64,7 @@
       max-width: 1536px;
     }
   }
+
 }
 @layer utilities {
   .hover-header {
