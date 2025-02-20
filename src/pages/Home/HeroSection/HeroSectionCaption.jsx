@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
+
 export default function HeroSectionCaption() {
   return (
-    <div className="  bg-white/50 backdrop-blur-md p-4 rounded-full space-y-4">
+    <motion.div
+      initial={{ opacity: 0, translateX: -10 }}
+      animate={{ opacity: 1, translateX: 1 }}
+      transition={{ duration: 0.5 }}
+      className="  bg-white/50 backdrop-blur-md p-4 rounded-full space-y-4"
+    >
       <h2 className="text-xl sm:text-2xl md:text-4xl text-center font-bold">
         Make your interior more minimalistic & modern
       </h2>
@@ -13,6 +20,6 @@ export default function HeroSectionCaption() {
           Get Started
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -2,7 +2,7 @@ import { Dribbble, Facebook, Linkedin, Twitter } from "lucide-react";
 
 import { Link } from "react-router-dom";
 
-export default function FooterDescriptiojn() {
+export default function FooterDescription() {
   return (
     <div className="border-t-2 border-white py-5 flex items-center flex-wrap sm:flex-nowrap justify-between gap-4 w-full container">
       <div>

@@ -2,14 +2,20 @@ import HeaderFristLogo from "./HeaderFristLogo";
 import HeaderLastLogo from "./HeaderLastLogo";
 import HeaderLogo from "./HeaderLogo";
 import HeaderMobile from "./HeaderMobile";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <header className="container mt-4 bg-[#e58611ea] text-white p-4 rounded-full px-8 flex items-center justify-between">
+    <motion.header
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1}}
+      transition={{ duration: 0.5 }}
+      className="container mt-4 bg-[#e58611ea] text-white p-4 rounded-full px-8 flex items-center justify-between"
+    >
       <HeaderLastLogo />
       <HeaderLogo />
       <HeaderFristLogo />
-      <HeaderMobile/>
-    </header>
+      <HeaderMobile />
+    </motion.header>
   );
 }

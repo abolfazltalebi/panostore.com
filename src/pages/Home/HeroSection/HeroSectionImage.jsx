@@ -1,8 +1,14 @@
 import heroBackground from "@/assets/images/background.webp";
+import { motion } from "framer-motion";
 
 export default function HeroSectionImage() {
   return (
-     <div>
-          <img src={heroBackground} className="rounded-3xl" alt="" />
-        </div>  )
+    <motion.div
+      initial={{ opacity: 0, translateX: 10 }}
+      animate={{ opacity: 1, translateX: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <img src={heroBackground} className="rounded-3xl" alt="" />
+    </motion.div>
+  );
 }
