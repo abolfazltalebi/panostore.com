@@ -17,7 +17,7 @@ export default function TestimonialsCard({
         <img  src={background} alt="" />
       </motion.div>
       <motion.div
-        className="absolute bottom-0 flex flex-col items-center gap-2 rounded-3xl bg-white m-3 h-[150px]"
+        className="absolute bottom-0 flex flex-col items-center gap-2 rounded-3xl bg-white m-3 md:h-[150px]"
         whileHover={{ scale: 1.05, rotate: 2 }}
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0,scale:0 }}
@@ -29,10 +29,10 @@ export default function TestimonialsCard({
           className="absolute -top-8 bg-white rounded-t-full p-2"
           alt={name}
         />
-        <div className="mt-6 flex flex-col items-center gap-2 p-4">
+        <div className="mt-6 flex flex-col items-center gap-1 p-4">
           <h3>{name}</h3>
           <p className="text-xs text-gray-500">{job}</p>
-          <blockquote className="text-xs text-justify break-all">
+          <blockquote className="text-xs text-justify break-all line-clamp-2 md:line-clamp-1">
             {caption}
           </blockquote>
         </div>

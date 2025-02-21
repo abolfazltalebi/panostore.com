@@ -41,13 +41,5 @@ export const TestimonialsItme = [
     image: user3,
     background: back1,
   },
-  {
-    id: 5,
-    name: "Pak Darto",
-    job: "Pengusaha",
-    caption:
-      "“Saya sangat puas dengan kualitas produk dan pelayanan yang diberikan“",
-    image: user3,
-    background: back1,
-  },
+
 ];

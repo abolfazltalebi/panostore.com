@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function MaterialsCaption() {
   return (
-    <div className="space-y-2 px-10">
+    <div className="space-y-2 ">
       <p className="font-bold uppercase text-[#E58411] text-xs">Materials</p>
       <h2 className="text-xl sm:text-2xl md:text-4xl">
         Very serious materials for making furniture

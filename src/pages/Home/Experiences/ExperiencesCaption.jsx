@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ExperiencesCaption() {
   return (
-    <div className="space-y-2 px-10">
+    <div className="space-y-2">
       <p className="font-bold uppercase text-[#E58411] text-xs">experiences</p>
       <h2 className="text-xl sm:text-2xl md:text-4xl">
         we provide you the best experience
