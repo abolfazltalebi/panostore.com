@@ -15,7 +15,7 @@ export default function MaterialsCaption() {
       </p>
       <Link
         to="/"
-        className="text-[#e58611ea] capitalize decoration-1  items-center gap-2 border-b inline-flex py-2  transition-all duration-300  hover:px-6 "
+        className="text-[#B25E2E] capitalize decoration-1  items-center gap-2 border-b inline-flex py-2  transition-all duration-300  hover:px-6 "
       >
         more info
         <FaArrowRight />

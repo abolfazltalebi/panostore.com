@@ -10,7 +10,7 @@ export default function Header() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1}}
       transition={{ duration: 0.5 }}
-      className="container mt-4 bg-[#e58611ea] text-white p-4 rounded-full px-8 flex items-center justify-between"
+      className="container mt-4 bg-[#B25E2E] text-white p-4 rounded-full px-8 flex items-center justify-between"
     >
       <HeaderLastLogo />
       <HeaderLogo />

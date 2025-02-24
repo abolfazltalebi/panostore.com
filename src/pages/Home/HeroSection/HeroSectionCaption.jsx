@@ -16,7 +16,7 @@ export default function HeroSectionCaption() {
         ease and speed
       </p>
       <div className="flex items-center justify-center">
-        <button className="bg-[#e58611ea] text-white py-2 px-4 rounded-full m-auto">
+        <button className="bg-[#B25E2E] text-white py-2 px-4 rounded-full m-auto">
           Get Started
         </button>
       </div>
