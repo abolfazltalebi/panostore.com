@@ -7,7 +7,7 @@ export default function FooterText() {
       <p className="font-medium">
         We are available all the time. Contact us today!
       </p>
-      <Button variant="footer">
+      <Button variant="footer" >
         <ArrowRightCircle className="size-10 -rotate-45" />
       </Button>
     </div>
